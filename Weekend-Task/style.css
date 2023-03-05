@@ -1,0 +1,825 @@
+/* Top-bar section started */
+.top-bar {
+    display: flex;
+    background-color: #f5f4f2;
+    justify-content: space-between;
+}
+
+.top-bar a {
+    margin-left: 2rem;
+    padding-top: 2rem;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* logo and name section started */
+.logo-text {
+    display: flex;
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 7rem;
+    padding-bottom: 1rem;
+}
+
+/* logo and name section ends */
+/* icons and links section started */
+/* links section started */
+.links ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 2rem;
+    gap: 1rem;
+
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* links section started */
+/* icons section started */
+.icons ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding-top: 1.8rem;
+    padding-left: 0.2rem;
+}
+
+.icons ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+
+}
+
+/* icons section ends */
+.icons-and-links {
+    display: flex;
+    padding-right: 5rem;
+}
+
+/* icons and links section ends */
+/* Top-bar section ends */
+
+/* backround image started  */
+.back-image {
+    background-image: url(./Image/WhatsApp\ Image\ 2023-03-03\ at\ 16.37.05.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-design {
+    padding-top: 7rem;
+    padding-left: 12rem;
+}
+
+.design-text {
+    font-size: xx-large;
+    height: 50px;
+    padding-top: 5rem;
+}
+
+.mini-text p {
+    padding-top: 5rem;
+}
+
+.btn {
+    border: 2px solid red;
+    width: 9rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.btn a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* backround image ends  */
+
+/* first big text starts */
+.next-text {
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+/* first big text ends */
+
+/* cards section start */
+.card-information {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icons>svg {
+    width: 90px;
+    fill: #ff2b09;
+    margin-bottom: 1rem;
+}
+
+.info-cards {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
+
+.about-title>h1 {
+    font-size: 2.95rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 85px;
+
+}
+
+.about-for-cards {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 20px 30px 50px;
+    margin: 25px 0 0;
+    width: 26%;
+}
+
+.titles>h3 {
+    font-size: 1.45rem;
+    font-weight: 800;
+    line-height: 1.78;
+    color: #23252f
+}
+
+.titles>p {
+    color: #232323;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* cards section ends */
+
+/* Cosmetic section starts */
+
+.tit-left {
+    margin: 6rem 0 0 15rem;
+}
+
+
+
+.tit {
+    display: flex;
+    justify-content: space-between;
+    padding: 9rem 0 0 0;
+    padding-top: 1rem;
+}
+
+.tit-hd p {
+    font-size: 25px;
+}
+
+.sun {
+    margin-top: 2rem;
+}
+
+.sun1 {
+    margin: 1rem 0 1rem 0;
+    border: solid 1px #000;
+    border-left: none;
+    border-right: none;
+}
+
+.tit-hd h1 {
+    font-size: 50px;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    line-height: 3rem;
+}
+
+.sun1 summary {
+    margin: 2rem 0 2rem 0;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.sun2 p {
+    margin-top: 2rem;
+}
+
+.sun2 summary {
+    margin: 2rem 0 2rem 0;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.sun2 {
+    margin: 1rem 0 1rem 0;
+    border: solid 1px #000;
+    border: none;
+}
+
+.sun3 {
+    margin: 1rem 0 1rem 0;
+    border: solid 1px #000;
+    border-left: none;
+    border-right: none;
+}
+
+
+.tit-right img {
+    width: 550px;
+    height: 600px;
+    margin-right: 7.2rem;
+    padding-top: 3rem;
+}
+
+.sun3 summary {
+    margin: 2rem 0 2rem 0;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* Cosmetic section ends */
+
+/* Checklist section started */
+.checklist {
+    background-color: #f2f2f2;
+    width: 84%;
+    display: flex;
+    margin-left: 6.5rem;
+    margin-top: 9rem;
+    margin-bottom: 5rem;
+}
+
+.checklist>div {
+    padding: 12rem 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.checklist>div>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    color: #232323;
+    letter-spacing: 3px;
+}
+
+.links-style a {
+    letter-spacing: 1px;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    color: #3b3a3a;
+    text-decoration: none;
+}
+
+/* Checklist section ends */
+
+/* fabolous-image-section-start */
+.fab-left-style {
+    width: 50%;
+}
+
+.fab-left-style>img {
+    width: 107%;
+    height: 34.2rem;
+    padding-left: 7.5rem;
+}
+
+.fab-rig-style {
+    width: 50%;
+    margin-left: 2.5rem;
+}
+
+.fabolous-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+.fab-rig-style>h1 {
+    text-transform: uppercase;
+    padding-right: 6rem;
+    letter-spacing: 2px;
+    font-size: 2.9376rem;
+    line-height: 1.2;
+}
+
+.p-info {
+    font-size: 1.18rem;
+    line-height: 1.5;
+    margin-top: 0.7rem;
+}
+
+.p-style {
+    margin-top: 0.7rem;
+    color: #626262;
+    font-size: 1.45rem;
+    line-height: 1.45;
+}
+
+.read-btn {
+    border: 3px solid red;
+    width: 10rem;
+    height: 2.7rem;
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.read-btn a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* fabolous-image-section-ends */
+
+/* Gift section start */
+.gift {
+    padding: 5rem 0;
+    display: flex;
+    text-align: center;
+}
+
+.left-style {
+    width: 38.2%;
+    margin-left: 7.7rem;
+}
+
+.left-style img {
+    width: 100%;
+}
+
+.right-style {
+    width: 42.856%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin-bottom: 4px;
+}
+
+.right-style>div>img {
+    width: 30%;
+}
+
+.right-style>div>h2 {
+    letter-spacing: 1.643px;
+    padding-top: 1.254rem;
+    color: #383636;
+    font-size: 1.883rem;
+    line-height: 1.223;
+}
+
+.link {
+    line-height: 3rem;
+    text-decoration: none;
+    color: #5f5d5d;
+    font-size: 1.2354rem;
+}
+
+/* Gift section end */
+
+/*Care-cream section start*/
+.creams-for-care {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.creams-for-care-sty {
+    width: 40%;
+    margin-left: 5rem;
+}
+
+.creams-for-care-sty>h1 {
+    line-height: 1.1;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 1.26rem;
+    font-size: 2.9776rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-italic {
+    padding-bottom: 1.3rem;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p-ligula {
+    font-size: larger;
+    letter-spacing: 0.1px;
+}
+
+.creams-for-care-sty1 {
+    width: 42%;
+    display: flex;
+    margin-right: 4.3rem;
+}
+
+.left-side {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item1.jpg
+);
+    background-size: cover;
+    height: 65vh;
+    width: 44%;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+
+}
+
+
+.right-side {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item2.jpg);
+    background-position: center;
+    width: 44%;
+    margin-left: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+
+}
+
+.left-side>div {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.right-side>div {
+    margin-top: 20.3rem;
+    text-align: center;
+}
+
+/*Care-cream section end*/
+
+/* Big text section start */
+
+.big-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+    padding-top: 5rem;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+/* Big text section end */
+
+/* Three creams  section starts */
+
+.three-creams {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+    gap: 2rem;
+}
+
+.image1-style {
+    background-image: url(./Image/cream1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.image2-style {
+    background-image: url(./Image/cream2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image3-style {
+    background-image: url(./Image/cream3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ponny {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.ponny p {
+    font-family: cursive;
+}
+
+/* Three creams  section ends */
+
+/* Six creams section start */
+.image4-style {
+    background-image: url(./Image/cream1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image5-style {
+    background-image: url(./Image/cream2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.image6-style {
+    background-image: url(./Image/cream1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image7-style {
+    background-image: url(./Image/cream2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Six creams section ends */
+
+/* Big and long section starts */
+.big-text1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    font-size: x-large;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0.3rem;
+    color: #232323;
+}
+
+/* Big and long section ends */
+
+/* Big icons row start */
+
+.big-icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 9rem;
+}
+
+/* Big icons row ends */
+
+/* Contact section starts */
+.contact {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.left-style-h {
+    width: 60%;
+    padding-right: 5rem;
+    padding-left: 11rem;
+}
+
+.left-style-h>h2 {
+    font-size: 1.875rem;
+    line-height: 1.1;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-style-h>p {
+    margin-top: 1.2rem;
+    color: #5f5d5d;
+    padding-bottom: 0.5rem;
+}
+
+.links-style-a>ul>li>a {
+    color: #0c0c0c;
+    font-size: 1.0525rem;
+    line-height: 1px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 15px;
+    font-family: cursive;
+}
+
+.right-style-h {
+    width: 85%;
+    padding-top: 1rem;
+    padding-left: 6.5rem;
+    padding-right: 1rem;
+
+}
+
+.read-btn {
+    font-size: xx-large;
+    width: 12rem;
+    height: 3rem;
+}
+
+
+.read-btn>a {
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-italic {
+    width: 100%;
+}
+
+.right-style-h>form {
+    width: 90%;
+}
+
+.email-style {
+    display: flex;
+    width: 100%;
+
+}
+
+.email-style>div {
+    width: 40%;
+
+}
+
+.email-style>div>input::placeholder {
+    padding: 25px;
+    font-size: larger;
+}
+
+
+
+.email-style>div>input {
+    height: 90px;
+    width: 100%;
+    border: 1px solid#cdcdcb;
+    padding-left: 5rem;
+}
+
+textarea {
+    border: 1px solid #cdcdcb;
+    width: 80%;
+}
+
+textarea::placeholder {
+    padding: 40px;
+    font-size: 1.2rem;
+}
+
+/* Contact section ends */
+
+/* Footer section starts */
+.footer {
+    padding: 5rem 0;
+    background-color: #f2f2f2;
+    padding-left: 7rem;
+    display: flex;
+    gap: 8rem;
+}
+
+.img4-sty {
+    padding-left: 19px;
+}
+
+.img4-sty>img {
+    width: 110px;
+}
+
+.left-sty {
+    width: 33.4%;
+    display: flex;
+    gap: 8rem;
+}
+
+.links-name {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footer ul li a {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #020103;
+    font-weight: 700;
+}
+
+.footer-form>form>input::placeholder {
+    padding: 0.6rem 0.6rem;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.right-links-names h4 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: 1.2px;
+}
+
+.right-links-names {
+    padding-bottom: 5rem;
+    padding-left: 6rem;
+}
+
+.footer-form>form>input {
+    padding: 1rem;
+    border: 1px solid #e7e7e7;
+    background-color: #f2f2f2;
+    margin-top: 17px;
+}
+
+button {
+    padding: 0.7rem 1.2rem;
+    color: black;
+    background: #f2f2f2;
+    margin-left: 9px;
+    font-size: 18px;
+}
+
+button>a:hover {
+    color: white;
+}
+
+/* Footer section ends */
